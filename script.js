@@ -1,6 +1,5 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
-  str = str.split('').sort().join('')
   let char = str[0]
   let count = 0
   for(let i of str){
