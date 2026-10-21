@@ -10,7 +10,7 @@ function firstNonRepeatedChar(str) {
       count = 1
     }
   }
-  return null
+  return count === 1 ? char : null
 }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
